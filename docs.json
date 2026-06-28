@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "almond",
   "name": "Refinery WIKI",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/refinery_logo_transparent.png",
+    "dark": "/images/refinery_logo_transparent.png"
+  },
   "navigation": {
     "languages": [
       {
@@ -74,7 +77,7 @@
   },
   "logo": {
     "light": "/refinery_logo_transparent.png",
-    "dark": "/logo/dark.svg"
+    "dark": "/images/refinery_logo_transparent.png"
   },
   "navbar": {
     "links": [
@@ -109,9 +112,19 @@
     }
   },
   "background": {
-    "decoration": "windows"
+    "decoration": "gradient",
+    "color": {
+      "light": "#F7FAFF",
+      "dark": "#09111F"
+    }
   },
   "styling": {
     "codeblocks": "system"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
