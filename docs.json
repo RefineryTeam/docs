@@ -9,8 +9,67 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      "homepage"
+    "languages": [
+      {
+        "language": "en",
+        "pages": [
+          "homepage"
+        ]
+      },
+      {
+        "language": "cn",
+        "pages": [
+          "cn/homepage"
+        ]
+      },
+      {
+        "language": "zh",
+        "pages": [
+          "zh/homepage"
+        ]
+      },
+      {
+        "language": "cs",
+        "pages": [
+          "cs/homepage"
+        ]
+      },
+      {
+        "language": "nl",
+        "pages": [
+          "nl/homepage"
+        ]
+      },
+      {
+        "language": "fr",
+        "pages": [
+          "fr/homepage"
+        ]
+      },
+      {
+        "language": "de",
+        "pages": [
+          "de/homepage"
+        ]
+      },
+      {
+        "language": "it",
+        "pages": [
+          "it/homepage"
+        ]
+      },
+      {
+        "language": "jp",
+        "pages": [
+          "jp/homepage"
+        ]
+      },
+      {
+        "language": "es",
+        "pages": [
+          "es/homepage"
+        ]
+      }
     ]
   },
   "logo": {
